@@ -1,0 +1,8 @@
+#基础工具
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0
+tenacity==8.2.3  #重试机制
+
+#大模型相关
+volcengine-python-sdk==1.0.0
