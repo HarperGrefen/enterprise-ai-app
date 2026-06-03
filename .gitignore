@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 忽略所有环境变量文件
+.env
+.env.*
+!.env.example
