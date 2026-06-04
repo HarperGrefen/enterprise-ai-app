@@ -1,0 +1,11 @@
+# 开发环境配置（所有非敏感信息放这里，可以提交）
+llm: 
+  provider: "doubao"  #大模型提供商
+  model: "doubao-pro-32k" #大模型名称
+  endpoint: "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
+  temperature: 0.7 #生成文本的随机程度，值越大越随机，建议在0.7-1.0之间
+  max_tokens: 2048  #生成文本的最大长度，建议根据实际需求调整
+
+log:
+  level: "INFO" #日志级别
+  file: "logs/app.log" #日志文件路径
